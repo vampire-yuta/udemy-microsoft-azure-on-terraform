@@ -23,6 +23,20 @@ tfenv list
 curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 ```
 
+## MacOSセットアップ
+### tfenvインストール
+```
+brew install tfenv
+tfenv --version
+tfenv list
+```
+
+### azコマンドインストール
+```
+brew install az
+```
+
+
 ## spnの作成
 ### Azureへのログイン
 ```
